@@ -5,6 +5,7 @@ while (true)
     Console.WriteLine("1: Zadanie 1");
     Console.WriteLine("2: Zadanie 2");
     Console.WriteLine("3: Zadanie 3");
+    Console.WriteLine("4: Zadanie 4");
     Console.WriteLine("0: Wyjście");
 
     string choice = Console.ReadLine();
@@ -19,6 +20,9 @@ while (true)
             break;
         case "3":
             zadanie3();
+            break;
+        case "4":
+            zadanie4();
             break;
         case "0":
             Console.WriteLine("Zakończono program.");
@@ -197,4 +201,42 @@ void zadanie3()
         return value;
     }
 
+}
+void zadanie4()
+{
+    const int size = 10;
+    double[] numbers = new double[size];
+
+    Console.WriteLine("Wprowadź 10 liczb:");
+
+    for (int i = 0; i < size; i++)
+    {
+        Console.Write($"Podaj liczbę {i + 1}: ");
+        while (!double.TryParse(Console.ReadLine(), out numbers[i]))
+        {
+            Console.WriteLine("Nieprawidłowy format. Spróbuj ponownie.");
+            Console.Write($"Podaj liczbę {i + 1}: ");
+        }
+    }
+
+
+    double suma = numbers.Sum();
+
+
+    double iloczyn = numbers.Aggregate(1.0, (acc, val) => acc * val);
+
+
+    double srednia = suma / size;
+
+
+    double min = numbers.Min();
+    double max = numbers.Max();
+
+
+    Console.WriteLine("\nWyniki:");
+    Console.WriteLine($"Suma elementów: {suma}");
+    Console.WriteLine($"Iloczyn elementów: {iloczyn}");
+    Console.WriteLine($"Średnia wartość: {srednia}");
+    Console.WriteLine($"Minimalna wartość: {min}");
+    Console.WriteLine($"Maksymalna wartość: {max}");
 }
