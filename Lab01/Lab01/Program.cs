@@ -6,6 +6,9 @@ while (true)
     Console.WriteLine("2: Zadanie 2");
     Console.WriteLine("3: Zadanie 3");
     Console.WriteLine("4: Zadanie 4");
+    Console.WriteLine("5: Zadanie 5");
+    Console.WriteLine("6: Zadanie 6");
+    Console.WriteLine("7: Zadanie 7");
     Console.WriteLine("0: Wyjście");
 
     string choice = Console.ReadLine();
@@ -23,6 +26,15 @@ while (true)
             break;
         case "4":
             zadanie4();
+            break;
+        case "5":
+            zadanie5();
+            break;
+        case "6":
+            zadanie6();
+            break;
+        case "7":
+            zadanie7();
             break;
         case "0":
             Console.WriteLine("Zakończono program.");
@@ -239,4 +251,63 @@ void zadanie4()
     Console.WriteLine($"Średnia wartość: {srednia}");
     Console.WriteLine($"Minimalna wartość: {min}");
     Console.WriteLine($"Maksymalna wartość: {max}");
+}
+void zadanie5()
+{
+    for (int i = 20; i >= 0; i--)
+    {
+        if (i == 2 || i == 6 || i == 9 || i == 15 || i == 19)
+        {
+            continue;
+        }
+        Console.WriteLine(i);
+    }
+}
+void zadanie6()
+{
+    while (true)
+    {
+        Console.Write("Podaj liczbę całkowitą: ");
+
+        if (int.TryParse(Console.ReadLine(), out int liczba))
+        {
+            if (liczba < 0)
+            {
+                break; 
+            }
+
+            Console.WriteLine($"Wprowadzona liczba to: {liczba}");
+        }
+        else
+        {
+            Console.WriteLine("Proszę podać poprawną liczbę całkowitą.");
+        }
+    }
+
+    Console.WriteLine("Koniec programu. Wprowadzono liczbę mniejszą od zera.");
+}
+void zadanie7()
+{
+    Console.Write("Ile liczb chcesz wprowadzić? ");
+    if (int.TryParse(Console.ReadLine(), out int n) && n > 0)
+    {
+        int[] liczby = new int[n];
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Podaj liczbę {i + 1}: ");
+            liczby[i] = int.Parse(Console.ReadLine());
+        }
+
+        Array.Sort(liczby);
+
+        Console.WriteLine("Posortowane liczby: ");
+        foreach (int liczba in liczby)
+            Console.WriteLine(liczba);
+    }
+    else
+    {
+        Console.WriteLine("Podaj poprawną liczbę.");
+    }
+
 }
