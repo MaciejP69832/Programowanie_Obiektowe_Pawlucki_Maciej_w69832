@@ -1,14 +1,13 @@
-﻿// main
+﻿using System;
+using MojeProgramy;
+// main
 while (true)
 {
-    Console.WriteLine("Wybierz zadanie do uruchomienia:");
-    Console.WriteLine("1: Zadanie 1");
-    Console.WriteLine("2: Zadanie 2");
-    Console.WriteLine("3: Zadanie 3");
-    Console.WriteLine("4: Zadanie 4");
-    Console.WriteLine("5: Zadanie 5");
-    Console.WriteLine("6: Zadanie 6");
-    Console.WriteLine("7: Zadanie 7");
+    Console.WriteLine("Wybierz Laboratorium do uruchomienia:");
+    Console.WriteLine("1: Lab 1");
+    Console.WriteLine("2: Lab 2");
+    Console.WriteLine("3: Lab 3");
+    Console.WriteLine("4: Lab 4");
     Console.WriteLine("0: Wyjście");
 
     string choice = Console.ReadLine();
@@ -16,25 +15,16 @@ while (true)
     switch (choice)
     {
         case "1":
-            zadanie1();
+            Lab1Menu();
             break;
         case "2":
-            zadanie2();
+            Lab2Menu();
             break;
         case "3":
-            zadanie3();
+            Lab3Menu();
             break;
         case "4":
-            zadanie4();
-            break;
-        case "5":
-            zadanie5();
-            break;
-        case "6":
-            zadanie6();
-            break;
-        case "7":
-            zadanie7();
+            Lab4Menu();
             break;
         case "0":
             Console.WriteLine("Zakończono program.");
@@ -47,8 +37,86 @@ while (true)
     Console.WriteLine();
 }
 // koniec main
+void Lab1Menu()
+{
+    while (true)
+    {
+        Console.WriteLine("Lab 1 - Wybierz Zadanie:");
+        Console.WriteLine("1: Zadanie 1");
+        Console.WriteLine("2: Zadanie 2");
+        Console.WriteLine("3: Zadanie 3");
+        Console.WriteLine("4: Zadanie 4");
+        Console.WriteLine("5: Zadanie 5");
+        Console.WriteLine("6: Zadanie 6");
+        Console.WriteLine("7: Zadanie 7");
+        Console.WriteLine("0: Powrót do głównego menu");
 
-void zadanie1()
+        string choice = Console.ReadLine();
+
+        switch (choice)
+        {
+            case "1":
+                Lab1zadanie1();
+                break;
+            case "2":
+                Lab1zadanie2();
+                break;
+            case "3":
+                Lab1zadanie3();
+                break;
+            case "4":
+                Lab1zadanie4();
+                break;
+            case "5":
+                Lab1zadanie5();
+                break;
+            case "6":
+                Lab1zadanie6();
+                break;
+            case "7":
+                Lab1zadanie7();
+                break;
+            case "0":
+                return;
+            default:
+                Console.WriteLine("Nieprawidłowy wybór, spróbuj ponownie.");
+                break;
+        }
+
+        Console.WriteLine();
+    }
+}
+void Lab2Menu()
+{ 
+    while(true)
+    {
+        Console.WriteLine("Lab 2 - wybierz zadanie do uruchomienia.");
+        Console.WriteLine("1. Zadanie 1.");
+        Console.WriteLine("0. Powrót.");
+        string choice = Console.ReadLine();
+        switch(choice)
+        {
+            case "1":
+                Lab2Zadanie1();
+                break;
+            case "0":
+                return;
+            default:
+                Console.WriteLine("Nieprawidłowy wybór, spróbuj ponownie.");
+                break;
+        }
+        Console.WriteLine();
+    }
+
+}
+void Lab3Menu()
+{
+}
+void Lab4Menu()
+{
+}
+
+void Lab1zadanie1()
 {
     double a = DoubleInput();
     double b = DoubleInput();
@@ -76,7 +144,7 @@ void zadanie1()
             x1 = (-b / (2 * a));
             Console.WriteLine($"Jedno rozwiązanie x1 = {x1}");
         }
-    } //koniec else
+    }
     double DoubleInput()
     {
         Console.WriteLine("Podaj liczbę: ");
@@ -84,7 +152,7 @@ void zadanie1()
         return value;
     }
 }
-void zadanie2()
+void Lab1zadanie2()
 {
     while (true)
     {
@@ -174,10 +242,10 @@ void zadanie2()
                 break;
         }
 
-        Console.WriteLine(); // Pusta linia dla lepszej czytelności
+        Console.WriteLine();
     }
 }
-void zadanie3()
+void Lab1zadanie3()
 {
     double a = DoubleInput();
     double b = DoubleInput();
@@ -205,7 +273,7 @@ void zadanie3()
             x1 = (-b / (2 * a));
             Console.WriteLine($"Jedno rozwiązanie x1 = {x1}");
         }
-    } //koniec else
+    }
     double DoubleInput()
     {
         Console.WriteLine("Podaj liczbę: ");
@@ -214,7 +282,7 @@ void zadanie3()
     }
 
 }
-void zadanie4()
+void Lab1zadanie4()
 {
     const int size = 10;
     double[] numbers = new double[size];
@@ -252,7 +320,7 @@ void zadanie4()
     Console.WriteLine($"Minimalna wartość: {min}");
     Console.WriteLine($"Maksymalna wartość: {max}");
 }
-void zadanie5()
+void Lab1zadanie5()
 {
     for (int i = 20; i >= 0; i--)
     {
@@ -263,7 +331,7 @@ void zadanie5()
         Console.WriteLine(i);
     }
 }
-void zadanie6()
+void Lab1zadanie6()
 {
     while (true)
     {
@@ -286,7 +354,7 @@ void zadanie6()
 
     Console.WriteLine("Koniec programu. Wprowadzono liczbę mniejszą od zera.");
 }
-void zadanie7()
+void Lab1zadanie7()
 {
     Console.Write("Ile liczb chcesz wprowadzić? ");
     if (int.TryParse(Console.ReadLine(), out int n) && n > 0)
@@ -309,5 +377,13 @@ void zadanie7()
     {
         Console.WriteLine("Podaj poprawną liczbę.");
     }
+}
+void Lab2Zadanie1()
+{
+    void Main(string[] args)
+    { 
+        Osoba osoba = new Osoba("Jan", "Kowalski", 30);
 
+    osoba.WyswietlInformacje();
+}
 }
