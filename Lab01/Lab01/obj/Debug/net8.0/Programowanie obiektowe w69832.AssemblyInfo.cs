@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Lab01")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Programowanie obiektowe w69832")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe936e1dec41eda3e2dc583bdea7bd254b19ce4d")]
-[assembly: System.Reflection.AssemblyProductAttribute("Lab01")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Lab01")]
+[assembly: System.Reflection.AssemblyProductAttribute("Programowanie obiektowe w69832")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Programowanie obiektowe w69832")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.

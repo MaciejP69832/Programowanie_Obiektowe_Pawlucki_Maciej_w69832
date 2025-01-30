@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\w69832\\.nuget\\packages\\": {},
+    "C:\\Users\\5pawluckima\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\w69832\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Lab01.csproj",
-      "projectName": "Lab01",
-      "projectPath": "C:\\Users\\w69832\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Lab01.csproj",
-      "packagesPath": "C:\\Users\\w69832\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\w69832\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\obj\\",
+      "projectUniqueName": "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Programowanie obiektowe w69832.csproj",
+      "projectName": "Programowanie obiektowe w69832",
+      "projectPath": "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Programowanie obiektowe w69832.csproj",
+      "packagesPath": "C:\\Users\\5pawluckima\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\w69832\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\5pawluckima\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -32,9 +32,7 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net8.0": {
@@ -51,7 +49,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -72,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

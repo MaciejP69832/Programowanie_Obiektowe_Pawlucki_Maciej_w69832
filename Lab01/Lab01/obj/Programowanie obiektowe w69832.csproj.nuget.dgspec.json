@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Lab01.csproj": {}
+    "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Programowanie obiektowe w69832.csproj": {}
   },
   "projects": {
-    "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Lab01.csproj": {
+    "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Programowanie obiektowe w69832.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Lab01.csproj",
-        "projectName": "Lab01",
-        "projectPath": "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Lab01.csproj",
+        "projectUniqueName": "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Programowanie obiektowe w69832.csproj",
+        "projectName": "Programowanie obiektowe w69832",
+        "projectPath": "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\Programowanie obiektowe w69832.csproj",
         "packagesPath": "C:\\Users\\5pawluckima\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\5pawluckima\\Source\\Repos\\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\\Lab01\\Lab01\\obj\\",
         "projectStyle": "PackageReference",

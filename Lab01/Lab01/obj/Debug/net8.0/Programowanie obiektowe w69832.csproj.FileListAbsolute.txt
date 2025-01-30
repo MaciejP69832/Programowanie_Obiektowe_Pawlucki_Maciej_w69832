@@ -1,0 +1,15 @@
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\bin\Debug\net8.0\Programowanie obiektowe w69832.exe
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\bin\Debug\net8.0\Programowanie obiektowe w69832.deps.json
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\bin\Debug\net8.0\Programowanie obiektowe w69832.runtimeconfig.json
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\bin\Debug\net8.0\Programowanie obiektowe w69832.dll
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\bin\Debug\net8.0\Programowanie obiektowe w69832.pdb
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\Programowanie obiektowe w69832.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\Programowanie obiektowe w69832.AssemblyInfoInputs.cache
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\Programowanie obiektowe w69832.AssemblyInfo.cs
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\Programowanie obiektowe w69832.csproj.CoreCompileInputs.cache
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\Programowanie obiektowe w69832.sourcelink.json
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\Programowanie obiektowe w69832.dll
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\refint\Programowanie obiektowe w69832.dll
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\Programowanie obiektowe w69832.pdb
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\Programowanie obiektowe w69832.genruntimeconfig.cache
+C:\Users\5pawluckima\Source\Repos\Programowanie_Obiektowe_Pawlucki_Maciej_w69832\Lab01\Lab01\obj\Debug\net8.0\ref\Programowanie obiektowe w69832.dll
