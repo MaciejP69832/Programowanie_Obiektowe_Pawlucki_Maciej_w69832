@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Programowanie obiektowe w69832")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a72b64df62c485b50412c10a99979565616e6d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b848de658c6658a8ad808230fa871c14e67d2dc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Programowanie obiektowe w69832")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Programowanie obiektowe w69832")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
