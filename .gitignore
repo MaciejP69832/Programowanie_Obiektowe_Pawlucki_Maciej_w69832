@@ -1,0 +1,60 @@
+## Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build artifacts
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+## Paket
+.paket/
+paket-files/
+
+## NuGet
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.snupkg
+
+## Rider/JetBrains
+.idea/
+*.sln.iml
+
+## ASP.NET
+wwwroot/node_modules/
+wwwroot/lib/
+
+## Logs
+*.log
+*.tlog
+
+## User-specific files
+*.rsuser
+*.rsrunsettings
+*.dotCover
+*.sln.binlog
+
+## Debug/Release
+*.vshost.*
+*.manifest
+*.cache
+
+## Configuration
+appsettings.Development.json
+appsettings.Staging.json
+
+## Temporary files
+~$*
+*.tmp
+*.bak
+*.swp
