@@ -1,21 +1,4 @@
-Skip to content
- 
-Search Gists
-Search...
-All gists
-Back to GitHub
-@takekazuomi
-takekazuomi/csharp.gitignore
-Created 11 years ago • Report abuse
-Code
-Revisions
-2
-Stars
-144
-Forks
-56
-Clone this repository at &lt;script src=&quot;https://gist.github.com/takekazuomi/10955889.js&quot;&gt;&lt;/script&gt;
-<script src="https://gist.github.com/takekazuomi/10955889.js"></script>
+
 .gitignore for C#
 csharp.gitignore
 ## Ignore Visual Studio temporary files, build results, and
